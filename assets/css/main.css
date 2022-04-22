@@ -112,7 +112,11 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
-
+	.foot{
+		font-weight: bold;
+		text-align: center;
+		box-sizing: content-box;
+	}
 /* Type */
 
 	html {
@@ -176,13 +180,13 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: justify;
+		text-align: center;
 		margin: 0 0 2rem 0;
+		font-weight: bold;
 	}
 
 	fnt{
-		text-align: justify;
-		margin: 0 0 2rem 0;
+		text-align: center;
 		font-weight: bold;
 		color: #ffffff;
 	}
@@ -217,6 +221,7 @@ input, select, textarea {
 	h3 {
 		font-size: 1.25rem;
 		margin: 0 0 1.5rem 0;
+		text-align: center;
 	}
 
 	h4 {
@@ -333,11 +338,11 @@ input, select, textarea {
 			background-color: transparent;
 			border: 2px solid #ffffff;
 			color: rgb(100, 71, 109);
-			padding: 10px 20px;
+			padding: 10px 10px;
 			text-align: center;
 			display: inline-flex;
-			font-size: 25px;
-			margin: 10px 20px;
+			font-size: 20px;
+			margin: 10px 10px;
 			cursor: pointer;
 		}
 
@@ -4415,10 +4420,10 @@ input, select, textarea {
 	#copyright {
 		color: #ffffff;
 		position: relative;
-		color: rgba(255, 255, 255, 0.25);
+		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 1rem;
+		font-size: 1.5rem;
 		font-weight: bold;
 		letter-spacing: 0.0200rem;
 		line-height: 1.5;

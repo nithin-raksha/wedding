@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Booklist</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro" class ="styledimg fit">
+						<h1>Booklist</h1>
+						<article>
+							<p id="demo"></p>
+
+							<script>
+							// Set the date we're counting down to
+							var countDownDate = new Date("Apr 22, 2022 18:14:00").getTime();
+
+							var x = setInterval(function() {
+
+							// Get today's date and time
+							var now = new Date().getTime();
+
+							// Find the distance between now and the count down date
+							var distance = countDownDate - now;
+
+							// Time calculations for days, hours, minutes and seconds
+							var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+							var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+							var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+							var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+							// Output the result in an element with id="demo"
+							document.getElementById("demo").innerHTML = "It isn't yet eight, please wait for your mate. :)" + "<br>" + days + "d " + hours + "h "+ minutes + "m " + seconds + "s ";
+
+							// If the count down is over, write some text 
+							if (distance < 0) {
+								clearInterval(x);
+								document.getElementById("demo").innerHTML =  "<a class='btn' href='https://docs.google.com/spreadsheets/d/1OBr3EvN4_EJgcOunZbT0l7rYDKDWmt9PF_3YGUfAjKM/edit#gid=0/'>Click here</a>";
+							}
+							}, 1000);
+							</script>
+						</article>
+						<!-- <ul class="actions">
+							<li><a href="#projects" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul> -->
+					</div>
+
+
+				<!-- Footer -->
+					<footer id="wrapper">
+						<section class="styledimg fit">
+							<section class="alt">
+								<h3>Designed By</h3>
+								<p>Prajwal V Athreya</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p>(+91) 973-896-2092</p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p>prajwalvathreya99@gmail.com</p>
+							</section>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+				<div id="copyright">
+					<ul><li>© Raksha and Nithin wedding productions</li></ul>
+				</div>
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

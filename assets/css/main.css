@@ -4722,3 +4722,11 @@ input, select, textarea {
 		}
 
 	}
+
+	@media only screen and (max-width: 1024px) {
+		div#responsive-menu-container,
+		button#responsive-menu-button,
+		header#header {
+			display: none !important;
+		}
+		}

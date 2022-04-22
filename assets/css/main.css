@@ -3484,7 +3484,7 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-		@media screen and (max-width: 980px) {
+		/* @media screen and (max-width: 980px) {
 
 			#intro {
 				padding: 4rem 4rem 2rem 4rem ;
@@ -3499,7 +3499,7 @@ input, select, textarea {
 					margin-top: -14rem;
 				}
 
-		}
+		} */
 
 		@media screen and (max-width: 736px) {
 
@@ -4722,11 +4722,3 @@ input, select, textarea {
 		}
 
 	}
-
-	@media only screen and (max-width: 1024px) {
-		div#responsive-menu-container,
-		button#responsive-menu-button,
-		header#header {
-			display: none !important;
-		}
-		}

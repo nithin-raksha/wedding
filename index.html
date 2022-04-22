@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Booklist</title>
@@ -20,12 +15,12 @@
 				<!-- Intro -->
 					<div id="intro" class ="styledimg fit">
 						<h1>Booklist</h1>
+						<h2><p id="demo"></p></h2>
 						<article>
-							<p id="demo"></p>
-
+							<p id="new"></p>
 							<script>
 							// Set the date we're counting down to
-							var countDownDate = new Date("May 14, 2022 20:00:00").getTime();
+							var countDownDate = new Date("Apr 22, 2022 19:26:00").getTime();
 
 							var x = setInterval(function() {
 
@@ -42,25 +37,23 @@
 							var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 							// Output the result in an element with id="demo"
-							document.getElementById("demo").innerHTML = "It isn't yet eight, please wait for your mate!" + "\n" + "<br>" + days + "d " + hours + "h "+ minutes + "m " + seconds + "s ";
-
+							document.getElementById("new").innerHTML = days + "d " + hours + "h "+ minutes + "m " + seconds + "s ";
+							document.getElementById("demo").innerHTML = "It isn't yet eight, please wait for your mate! :)";
 							// If the count down is over, write some text 
 							if (distance < 0) {
 								clearInterval(x);
-								document.getElementById("demo").innerHTML =  "<a class='btn' href='https://docs.google.com/spreadsheets/d/1OBr3EvN4_EJgcOunZbT0l7rYDKDWmt9PF_3YGUfAjKM/edit#gid=0/'>Click here</a>";
+								document.getElementById("demo").innerHTML = "";
+								document.getElementById("new").innerHTML =  "<a class='btn' href='https://docs.google.com/spreadsheets/d/1OBr3EvN4_EJgcOunZbT0l7rYDKDWmt9PF_3YGUfAjKM/edit#gid=0/'>Click here</a>";
 							}
 							}, 1000);
 							</script>
 						</article>
-						<!-- <ul class="actions">
-							<li><a href="#projects" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul> -->
 					</div>
 
 					<article class="post featured">
 						<header class="major">
 							<h2></h2>
-
+								<p> <br></br></p>
 						</header>
 					</article>
 

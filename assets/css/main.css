@@ -4520,7 +4520,7 @@ input, select, textarea {
 
 /* Nav Panel */
 
-	#navPanelToggle {
+	/* #navPanelToggle {
 		text-decoration: none;
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
@@ -4567,9 +4567,9 @@ input, select, textarea {
 
 			#navPanelToggle.alt:hover {
 				background-color: #ffffff;
-			}
+			} */
 
-		@media screen and (max-width: 980px) {
+		/* @media screen and (max-width: 980px) {
 
 			#navPanelToggle {
 				display: block;
@@ -4679,7 +4679,7 @@ input, select, textarea {
 
 			#navPanel .close:hover {
 				color: #212931;
-			}
+			} */
 
 			@media screen and (max-width: 736px) {
 
